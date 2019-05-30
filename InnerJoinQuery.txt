@@ -1,0 +1,5 @@
+SELECT a.City, a.State,_2017estimate,_2010Census, Change,_2016_land_area,_2016_population_density,
+_NameOfRace,_NumberOfpeople,_PercentOfPeople
+FROM [UnitedStatesCity.USCities]  a
+INNER JOIN [UnitedStatesCity.Races] b
+ON a.City = b.City
